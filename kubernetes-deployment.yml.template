@@ -23,7 +23,7 @@ spec:
       containers:
       - image: wcr.io/$WERCKER_APPLICATION_OWNER_NAME/$WERCKER_APPLICATION_NAME:$WERCKER_GIT_BRANCH-$WERCKER_GIT_COMMIT
         imagePullPolicy: Always
-        name: rest-jscreditscore
+        name: rest-jscreditscore20
         ports:
         - containerPort: 3000
           protocol: TCP
